@@ -14,8 +14,8 @@ h1 {
     color: steelblue;
 }
 
-img {
-    width: 150;
+main img {
+    width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
