@@ -1,5 +1,5 @@
 :root {
-    --text-aling: center;
+    --text-align: center;
     --primary-color: #232020;
     --secondary-color: #0E6BA8;
     --accent1-color: #9F9F92;
@@ -115,7 +115,9 @@ nav a:hover {
     
 }
 
-.adventures
+.adventures{
+
+}
 
 
 
@@ -135,6 +137,6 @@ footer a {
 footer a img {
     width: 5%;
     max-width: 30px;
-    padding: 5%;
+    
 
 }
