@@ -130,11 +130,11 @@ footer {
     margin-top: 10px;
 }
 
-footer a {
+.social_links a {
     text-decoration: none;
 }
 
-footer a img {
+.social_links a img {
     width: 5%;
     max-width: 30px;
     
