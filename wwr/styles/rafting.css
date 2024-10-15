@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: "Space Grotesk", sans-serif;
 }
 
 a {
@@ -105,27 +105,22 @@ nav a:hover {
 
 }
 
-section {
+.history, .adventures {
     padding: 15px;
     background-color: #9F9F92;
     color: #232020
 }
 
-
-
-section p {
-
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-
+.history {
+    
 }
 
-section img {
-    width: 24%;
-    max-height: 100px;
-}
+.adventures
+
+
+
+
+
 
 footer {
     text-align: center;
