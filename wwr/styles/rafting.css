@@ -1,0 +1,145 @@
+:root {
+    --text-aling: center;
+    --primary-color: #232020;
+    --secondary-color: #0E6BA8;
+    --accent1-color: #9F9F92;
+    --accent2-color: #748E54;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header,
+main,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    background-color: var(--primary-color);
+    border: 1px solid #000
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px
+}
+
+nav a {
+    text-align: center;
+    color: var(--accent1-color);
+    padding: 1em;
+
+}
+
+nav a:hover {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+
+
+
+.hero {
+    position: relative;
+
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+}
+
+.hero article {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0.463);
+    padding: 1rem;
+}
+
+
+.hero article img {
+    float: right;
+    border: 1px solid #000;
+    padding: 3px;
+    background-color: #748E54;
+    width: 150px;
+    height: auto;
+
+
+}
+
+section {
+    padding: 15px;
+    background-color: #9F9F92;
+    color: #232020
+}
+
+
+
+section p {
+
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+section img {
+    width: 24%;
+    max-height: 100px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #000;
+    margin-top: 10px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a img {
+    width: 5%;
+    max-width: 30px;
+    padding: 5%;
+
+}
