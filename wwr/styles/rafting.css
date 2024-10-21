@@ -166,10 +166,9 @@ nav a:hover {
     grid-row-end: 4;
     
     display: flex;
-    justify-content: space-between 30px;
-    
-    
+    justify-content: space-between; 
 
+    
    
  }
 .adventures figure img{
