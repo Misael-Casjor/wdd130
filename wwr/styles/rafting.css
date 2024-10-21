@@ -145,7 +145,7 @@ nav a:hover {
   
   .history figure {
     grid-column: 2 / 3;
-    justify-self: center; /* Centers the image within the column */
+    justify-self: center;
   }
   
   .history .para2 {
