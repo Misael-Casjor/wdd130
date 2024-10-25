@@ -13,38 +13,44 @@ body {
 
 }
 header {
-    margin-top: 5%;
-    margin-bottom: 2.5%;
-    background-color: #B4C9DD;
-    width: 50%;
     margin: auto;
+    background-color: #B4C9DD;
+    width: 650px;
 
 }
 h1 {
     margin: 1rem;
     text-align: center;
+    font-size: 1.5em;
 }
 
 
 form{
-    width: 25%;
+    max-width: 40%;
+    width: auto;
     margin: 0 auto;
     padding: 1rem;
     border: 1px black;
     border-radius: 0.5rem;
     background-color: #B4C9DD;
-    text-align: center;
-    
+    display: grid;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
 }
 fieldset{
-    width: 25%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: .5rem;
-    margin: 1rem auto;
+    grid-gap: 0.5rem;
+    width: 40%;
+    margin: 1rem ;
     padding: 1rem;
     border: 1px black;
     background-color: #B4C9DD;
+    border-radius: 0.5rem;
     
 }
 legend{
@@ -55,7 +61,7 @@ legend{
 }
 
 label {
-    text-align: center;
+    text-align: right;
     padding-right: 1rem;
 }
 input, select, textarea{
@@ -63,13 +69,25 @@ input, select, textarea{
     font-size: 1.1rem;
 
 }
+.form-item {
+    display: grid;
+    align-items: center;
+
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2 {
+    grid-template-columns: 2fr 1fr;
+}
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
-    
+    vertical-align: bottom;
 }
 button {
-    display:block;
+    display: block;
     margin: 1rem auto;  
     background-color: #B4C9DD;
     border: none;
