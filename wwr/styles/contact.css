@@ -223,7 +223,7 @@ nav a:hover {
 }
 .contact form label{
     grid-column: 1/2;
-    text-align: top;
+    
 
 }
 .contact form input{
