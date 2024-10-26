@@ -216,13 +216,20 @@ nav a:hover {
     background-color:#c0c0c0;
     grid-column: 2/3;
     border-radius: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+
+
     
 }
 .contact form label{
     grid-column: 1/2;
+    text-align: top;
+
 }
+.contact form input{
+    grid-column: 2/3;
+}
+
 
 
 .contact form button{
