@@ -222,12 +222,13 @@ nav a:hover {
     
 }
 .contact form label{
-    grid-column: 1/2;
+    text-align: right;
     
 
 }
-.contact form input{
-    grid-column: 2/3;
+
+.contact form input, textarea{
+    float: right;
 }
 
 
