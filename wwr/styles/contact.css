@@ -223,12 +223,14 @@ nav a:hover {
 }
 .contact form label{
     text-align: right;
+    margin: 0,5px;
     
 
 }
 
 .contact form input, textarea{
     float: right;
+    border: 1px;
 }
 
 
