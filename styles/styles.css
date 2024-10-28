@@ -1,23 +1,42 @@
 :root {
     --text-aling: center;
 }
-nav {
+
+header nav {
+    grid-column: 2/4;
+    display: flex;
+    justify-content: space-around;
     background-color: steelblue;
     padding: 10px;
 }
-
+a{
+    text-decoration: none;
+}
 nav a {
+    text-align: center;
     color: white;
     display: block;
-    padding: 20px;
+    padding: 1em;
 
 }
 
-h1 {
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.788);
     color: steelblue;
 }
 
-main img {
+
+.hero .back {
+    width: auto;
+    max-height: 55rem;
+    grid-column-start:1;
+    grid-column-end: 4;
+}
+.hero h1 {
+    color: steelblue;
+}
+
+main .me {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -54,4 +73,31 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: var(--text-aling);
+}
+.social_links {
+
+
+    text-align: center;
+    border-top: 1px solid #000;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 20% 50% 1fr 1fr 1fr ;
+    grid-template-rows: 1fr ;
+}
+.social_links p {
+    grid-column-start: 2;
+}
+.social_links a {
+    text-decoration: none;
+ 
+}
+    
+    
+
+.social_links a img {
+
+    margin-top: 15px;
+    width: 50%;
+    max-width: 40px;
+    
 }
